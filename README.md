@@ -21,9 +21,16 @@ After that you are ready to start with your minimum react setup
 ```
 	git clone https://github.com/wviveiro/minReactSetup.git minreact
 	cd minreact
+	npm install
 	npm start
 ```
 You can still **build and eject** your **create-react-app**. this repo just gives an extra power for this component.
+
+Case you don't want to use this repo, and want to create a new one, just delete the `.git` file
+
+```
+	rm -Rf .git
+```
 
 The magic of this project happens inside the folder `src`. The folder structure is as below:
 
