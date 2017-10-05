@@ -106,7 +106,7 @@ import {Switch, Route, withRouter} from 'react-router-dom';
  */
  import Home from './components/home';
  import NotFound from './components/notfound';
- +import HelloWorld from './components/helloWorld';
++import HelloWorld from './components/helloWorld';
 
 class Router extends Component {
 	render() {
