@@ -1,0 +1,27 @@
+$header-top-color: #000;
+$header-bottom-color: #333;
+$header-title-color: #FFF;
+
+.container-home {
+	header {
+		background: $header-top-color;
+		background: -webkit-linear-gradient($header-top-color, $header-bottom-color);
+		background: -o-linear-gradient($header-top-color, $header-bottom-color);
+		background: -moz-linear-gradient($header-top-color, $header-bottom-color);
+		background: linear-gradient($header-top-color, $header-bottom-color);
+
+		padding: 10px;
+
+		h2 {
+			color: $header-title-color;
+		}
+	}
+
+	.gray-box {
+		margin: 20px 30px;
+		background: #EEE;
+		padding: 0 20px 20px;
+		box-sizing: border-box;
+		border: solid 1px #DDD;
+	}
+}
