@@ -12,7 +12,7 @@ export default class Home extends React.Component {
 						</div>
 					</div>
 				</header>
-				<div class="gray-box">
+				<div className="gray-box">
 					<h3>Welcome to the minimum react setup</h3>
 					<p>If you can see this message is because you have installed the minimum react setup successfully.</p>
 					<p>Minimum React Setup is an extension for <b>create-react-app</b> which installs for you some components that are important to your app such as:</p>
